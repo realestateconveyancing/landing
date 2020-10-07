@@ -12,7 +12,7 @@ const Footer = () => (
         ©
         {new Date().getFullYear()}
         , Built By
-        <a href="https://www.morosoft.org" style={homeStyles.footerTextLink} target="_blank">Morosoft</a>
+        <a href="https://www.morosoft.org" style={homeStyles.footerCompanyText} target="_blank">Morosoft</a>
       </Col>
       <Col span={4}>
         <a href="www.facebook.com" style={homeStyles.footerTextLink} target="_blank">

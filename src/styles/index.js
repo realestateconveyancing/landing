@@ -3,16 +3,29 @@ export const homeStyles = {
     marginTop: '35vh',
   },
   contentBtn: {
-    height: '40px',
+    height: '50px',
     width: '300px',
+    backgroundColor: '#0ea800',
+    border: 'none',
+    fontSize: '24px',
+    textAlign: 'center',
   },
   footer: {
     marginBottom: '20px',
   },
   footerText: {
     color: 'white',
+  },
+  footerCompanyText: {
+    color: 'white',
+    marginLeft: '10px',
+    cursor: 'pointer',
+    marginRight: '10px',
     fontWeight: 'bold',
-
+  },
+  footerBold: {
+    color: 'white',
+    fontWeight: 'bold',
   },
   footerTextLink: {
     color: 'white',
