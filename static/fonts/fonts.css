@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Georgia;
+  font-weight: 400;
+  font-style: normal;
+  src: url("Georgia-Regular-Font.ttf") format("ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato";
+  font-weight: 400;
+  font-style: normal;
+  src: url("Lato-Regular.ttf") format("ttf");
+  font-display: swap;
+}
+/* @font-face {
+  font-family: Rubik;
+  font-weight: 400;
+  font-style: italic;
+  src: url("Rubik-Italic.woff2") format("woff2"), url("Rubik-Italic.woff")
+      format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: Rubik;
+  font-weight: 700;
+  font-style: normal;
+  src: url("Rubik-Bold.woff2") format("woff2"), url("Rubik-Bold.woff") format("woff");
+  font-display: swap;
+} */
