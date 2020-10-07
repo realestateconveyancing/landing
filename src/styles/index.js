@@ -1,4 +1,13 @@
 export const homeStyles = {
+  content: {
+    background: 'rgba(11, 32, 71, 0.5)',
+  },
+  bgImage: {
+    position: 'relative',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+    backgroundSize: 'cover',
+  },
   contentRow: {
     marginTop: '35vh',
   },
@@ -11,7 +20,8 @@ export const homeStyles = {
     textAlign: 'center',
   },
   footer: {
-    marginBottom: '20px',
+    padding: '20px 0px',
+    backgroundColor: '#071939',
   },
   footerText: {
     color: 'white',

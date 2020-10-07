@@ -28,21 +28,23 @@ const IndexPage = () => {
         className="hero-bg"
         fluid={imageData}
         backgroundColor="#040e18"
+        style={homeStyles.bgImage}
       >
-        <Layout>
+        <div style={homeStyles.content}>
+          <Layout>
+            <Row style={homeStyles.contentRow}>
+              <Col span={6} />
+              <Col span={6} style={homeStyles.butnsWrap}>
+                <Button type="primary" style={homeStyles.contentBtn}>Sell A House </Button>
+              </Col>
+              <Col span={6} style={homeStyles.butnsWrap}>
+                <Button type="primary" style={homeStyles.contentBtn}>Sell A House </Button>
+              </Col>
+              <Col span={6} />
+            </Row>
 
-          <Row style={homeStyles.contentRow}>
-            <Col span={6} />
-            <Col span={6} style={homeStyles.butnsWrap}>
-              <Button type="primary" style={homeStyles.contentBtn}>Sell A House </Button>
-            </Col>
-            <Col span={6} style={homeStyles.butnsWrap}>
-              <Button type="primary" style={homeStyles.contentBtn}>Sell A House </Button>
-            </Col>
-            <Col span={6} />
-          </Row>
-
-        </Layout>
+          </Layout>
+        </div>
       </BackgroundImage>
     </>
   )
