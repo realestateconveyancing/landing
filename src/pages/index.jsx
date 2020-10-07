@@ -35,7 +35,7 @@ const IndexPage = () => {
             <Row style={homeStyles.contentRow}>
               <Col span={6} />
               <Col span={6} style={homeStyles.butnsWrap}>
-                <Button type="primary" style={homeStyles.contentBtn}>Sell A House </Button>
+                <Button type="primary" style={homeStyles.contentBtn}>Buy A House </Button>
               </Col>
               <Col span={6} style={homeStyles.butnsWrap}>
                 <Button type="primary" style={homeStyles.contentBtn}>Sell A House </Button>
