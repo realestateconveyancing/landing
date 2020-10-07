@@ -9,7 +9,31 @@ export const homeStyles = {
     backgroundSize: 'cover',
   },
   contentRow: {
-    marginTop: '35vh',
+    marginTop: '30vh',
+    textAlign: 'center',
+  },
+  heading1: {
+    color: 'white',
+    fontSize: '48px',
+    lineHeight: '60px',
+    marginBottom: '18px',
+  },
+  heading2: {
+    color: 'white',
+    textAlign: 'center',
+    fontSize: '24px',
+    marginBottom: '10px',
+  },
+  heading3: {
+    color: 'white',
+    textAlign: 'center',
+    fontSize: '18px',
+    marginTop: '20px',
+    fontWeight: 'bold',
+  },
+  homeIcon: {
+    verticalAlign: 'text-top',
+    paddingRight: '5px',
   },
   contentBtn: {
     height: '50px',
