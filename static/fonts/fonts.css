@@ -2,7 +2,7 @@
   font-family: Larsseit;
   font-weight: 400;
   font-style: normal;
-  src: url("fonts/Larsseit.ttf") format("ttf");
+  src: url("Larsseit.ttf") format("ttf"), url("Larsseit.ttf") format("ttf");
   font-display: swap;
 }
 @font-face {
