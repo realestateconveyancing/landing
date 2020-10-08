@@ -20,7 +20,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         custom: {
-          families: ['Georgia', 'Lato'], // ['Georgia, Dank Mono'] for multiple
+          families: ['Georgia', 'Lato', 'Larsseit'], // ['Georgia, Dank Mono'] for multiple
           urls: ['/fonts/fonts.css'],
         },
       },

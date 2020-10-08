@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Muhammad Uzair <uzair.morosofot@gmail.com>",
   "dependencies": {
+    "@ant-design/icons": "^4.2.2",
     "antd": "^4.6.6",
     "babel-plugin-styled-components": "^1.10.7",
     "bootstrap": "^4.4.1",
