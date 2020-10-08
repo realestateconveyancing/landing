@@ -17,6 +17,8 @@ export const homeStyles = {
     fontSize: '48px',
     lineHeight: '60px',
     marginBottom: '18px',
+    // width: '300px',
+    textAlign: 'center',
   },
   heading2: {
     color: 'white',
@@ -28,20 +30,32 @@ export const homeStyles = {
     color: 'white',
     textAlign: 'center',
     fontSize: '18px',
-    marginTop: '20px',
     fontWeight: 'bold',
+  },
+  sellingCol: {
+    border: '1px solid #e8e8e8',
+    borderTop: 'none',
+    borderBottom: 'none',
+    borderLeft: 'none',
+    marginRight: '10px',
+  },
+  buyingCol: {
+    marginLeft: '10px',
   },
   homeIcon: {
     verticalAlign: 'text-top',
     paddingRight: '5px',
   },
   contentBtn: {
-    height: '50px',
-    width: '300px',
+    height: 'auto',
+    width: '100px',
     backgroundColor: '#0ea800',
     border: 'none',
     fontSize: '24px',
     textAlign: 'center',
+  },
+  btnText: {
+    width: '90%',
   },
   footer: {
     padding: '20px 0px',
