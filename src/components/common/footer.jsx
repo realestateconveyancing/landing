@@ -1,3 +1,4 @@
+/* eslint-disable no-script-url */
 /* eslint-disable react/jsx-no-target-blank */
 import React from 'react'
 import { FacebookFilled, TwitterSquareFilled, YoutubeFilled } from '@ant-design/icons'
@@ -12,7 +13,7 @@ const Footer = () => (
         ©
         {new Date().getFullYear()}
         , Built By
-        <a href="https://www.morosoft.org" style={homeStyles.footerCompanyText} target="_blank">Morosoft</a>
+        <a href="JavaScript:Void(0)" style={homeStyles.footerCompanyText}>Elwa Group Private Limited</a>
       </Col>
       <Col span={4}>
         <a href="www.facebook.com" style={homeStyles.footerTextLink} target="_blank">
