@@ -1,35 +1,31 @@
 import { Link } from 'gatsby'
+import { Row, Col } from 'antd'
 import PropTypes from 'prop-types'
 import React from 'react'
+import styled from 'styled-components'
+import Img from './image'
+
+const StyledHeader = styled.header`
+  margin: 1.45rem;
+
+  & .logo-cont{
+    width: 500px;
+    margin: 0 auto !important;
+  }
+`
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      marginBottom: '1.45rem',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-            fontSize: '40px',
-            lineHeight: '40px',
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
+  <StyledHeader>
+    <Row type="flex" justify="center">
+      <Col span={24}>
+
+        <div className="logo-cont">
+          <Img imgName="logo-transparent.png" />
+        </div>
+      </Col>
+
+    </Row>
+  </StyledHeader>
 )
 
 Header.propTypes = {

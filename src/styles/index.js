@@ -34,31 +34,6 @@ export const homeStyles = {
     paddingRight: '5px',
   },
 
-  footer: {
-    padding: '20px 0px',
-    backgroundColor: '#071939',
-  },
-  footerText: {
-    color: 'white',
-  },
-  footerCompanyText: {
-    color: 'white',
-    marginLeft: '10px',
-    cursor: 'pointer',
-    marginRight: '10px',
-    fontWeight: 'bold',
-  },
-  footerBold: {
-    color: 'white',
-    fontWeight: 'bold',
-  },
-  footerTextLink: {
-    color: 'white',
-    fontWeight: 'bold',
-    textDecoration: 'none',
-    cursor: 'pointer',
-    marginRight: '10px',
-  },
 }
 
 export default {

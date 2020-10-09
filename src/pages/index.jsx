@@ -22,6 +22,11 @@ const StyledHome = styled.div`
   & .heading-row{
     min-height: 250px;
   }
+
+  & .pricing-row{
+    padding: 40px;
+    margin: 40px;
+  }
 `
 
 const StyledButton = styled(Button)`
@@ -73,7 +78,7 @@ const IndexPage = () => {
                   <h2 style={homeStyles.heading2}>
                     Selling You Place?
                   </h2>
-                  <StyledButton type="primary" href="https://google.com" size="large">
+                  <StyledButton type="primary" href="https://reception676431.typeform.com/to/KN9jKQeB" size="large">
                     Need a contract for your scale
                   </StyledButton>
                 </Col>
@@ -81,12 +86,12 @@ const IndexPage = () => {
                   <h2 style={homeStyles.heading2}>
                     Buying a Place?
                   </h2>
-                  <StyledButton href="https://google.com" type="primary" size="large">
+                  <StyledButton href="https://reception676431.typeform.com/to/RL6Z7cjj" type="primary" size="large">
                     Need to review a contract for purchase
                   </StyledButton>
                 </Col>
               </Row>
-              <Row>
+              <Row className="pricing-row">
                 <Col span={24}>
                   <p style={homeStyles.heading3}>
                     Plus any Government or authority searches
