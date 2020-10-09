@@ -36,7 +36,7 @@ const Footer = () => (
         ©
         {new Date().getFullYear()}
         , Built By
-        <a href="JavaScript:Void(0)" className="credits">Elaw Group Pty Limited.</a>
+        <a href="JavaScript:Void(0)" className="credits">Elaw Group Pty Ltd.</a>
       </Col>
       <Col span={4}>
         <a href="https://instagram.com/realestateconveyance.com.au?igshid=izwpetuu8wj6" className="icon-cont" target="_blank">

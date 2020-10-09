@@ -141,12 +141,12 @@ const Home = () => {
                   Selling Your Place?
                 </h2>
                 <StyledButton type="primary" href="https://reception676431.typeform.com/to/KN9jKQeB" size="large">
-                  Need a contract for your scale
+                  Need a contract for your sale
                 </StyledButton>
               </Col>
               <Col xs={24} sm={12} md={12} lg={12} xl={8} className="col-container">
                 <h2 className="tagline">
-                  Buying a Place?
+                  Buying A Place?
                 </h2>
                 <StyledButton href="https://reception676431.typeform.com/to/RL6Z7cjj" type="primary" size="large">
                   Need to review a contract for purchase
@@ -156,9 +156,10 @@ const Home = () => {
             <Row className="pricing-row">
               <Col span={24}>
                 <p>
-                  $500
+                  $500*
                   {' '}
-                  <span>*plus any Government or authority searches</span>
+                  <br />
+                  <span>* plus any Government or authority searches</span>
                 </p>
               </Col>
             </Row>
