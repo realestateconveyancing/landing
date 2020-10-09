@@ -130,7 +130,11 @@ const Home = () => {
             </Row>
             <Row type="flex" justify="center">
               <Col
-                sm={6}
+                xs={24}
+                sm={12}
+                lg={12}
+                md={12}
+                xl={8}
                 className="col-container"
               >
                 <h2 className="tagline">
@@ -140,7 +144,7 @@ const Home = () => {
                   Need a contract for your scale
                 </StyledButton>
               </Col>
-              <Col sm={6} className="col-container">
+              <Col xs={24} sm={12} md={12} lg={12} xl={8} className="col-container">
                 <h2 className="tagline">
                   Buying a Place?
                 </h2>
