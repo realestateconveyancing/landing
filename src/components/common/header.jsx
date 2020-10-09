@@ -1,4 +1,3 @@
-import { Link } from 'gatsby'
 import { Row, Col } from 'antd'
 import PropTypes from 'prop-types'
 import React from 'react'
@@ -6,7 +5,6 @@ import styled from 'styled-components'
 import Img from './image'
 
 const StyledHeader = styled.header`
-  margin: 1.45rem;
 
   & .logo-cont{
     width: 500px;
@@ -23,7 +21,6 @@ const Header = ({ siteTitle }) => (
           <Img imgName="logo-transparent.png" />
         </div>
       </Col>
-
     </Row>
   </StyledHeader>
 )

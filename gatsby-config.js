@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Carolyndorrian',
-    description: 'Carolyndorrian',
+    title: 'Real Estate Conveyncer',
+    description: 'Your Local Real estate Conveyncer',
     author: '@gatsbyjs',
   },
   plugins: [

@@ -4,7 +4,6 @@ import React from 'react'
 import { InstagramFilled, LinkedinFilled } from '@ant-design/icons'
 import { Row, Col } from 'antd'
 import styled from 'styled-components'
-import { homeStyles } from '../../styles'
 
 const StyledFooter = styled.footer`
   padding: 20px 0px;
@@ -33,7 +32,7 @@ const Footer = () => (
   <StyledFooter>
     <Row>
       <Col span={2} />
-      <Col span={18} style={homeStyles.footerText}>
+      <Col span={18}>
         ©
         {new Date().getFullYear()}
         , Built By
