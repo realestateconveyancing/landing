@@ -7,7 +7,7 @@ import Img from './image'
 const StyledHeader = styled.header`
 
   & .logo-cont{
-    width: 500px;
+    max-width: 500px;
     margin: 0 auto !important;
   }
 `
@@ -15,8 +15,7 @@ const StyledHeader = styled.header`
 const Header = ({ siteTitle }) => (
   <StyledHeader>
     <Row type="flex" justify="center">
-      <Col span={24}>
-
+      <Col xs={24} sm={12}>
         <div className="logo-cont">
           <Img imgName="logo-transparent.png" />
         </div>

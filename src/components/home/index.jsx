@@ -12,9 +12,9 @@ import Footer from '../common/footer'
 
 const HeroContainer = styled.div`
   background: rgba(11, 32, 71, 0.5);
-  height: calc(100vh - 77px);
-  // height: calc(~"100vh - 77px");
-
+  @media(min-width: 500px) {
+    height: calc(100vh - 77px);
+  }
 `
 
 const StyledHome = styled.div`
@@ -23,6 +23,7 @@ const StyledHome = styled.div`
     flex-direction: column !important; 
     align-items: center !important; 
     justify-content: center !important;
+    margin: 20px;
   }
 
   & .col-container .tagline{
@@ -33,6 +34,22 @@ const StyledHome = styled.div`
 
   & .heading-row{
     min-height: 250px;
+    text-align: center;
+    color: #fff;
+  }
+
+  & .main-heading{
+    color: white;
+    font-size: 36px;
+    line-height: 60px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+
+  & .heading-tagline{
+    color: #fff;
+    font-style: italic;
+    margin-top: 0;
   }
 
   & .pricing-row{
@@ -41,24 +58,20 @@ const StyledHome = styled.div`
   }
 
   & .pricing-row p{
-    color: white;
+    font-weight: bold;
+    color: #0ea800;
     font-size: 24px;
     text-align: center;
     font-weight: bold;
   }
 
   & .pricing-row span{
-    font-weight: bold;
-    color: #0ea800;
+    font-size: 12px;
+    font-style: italic;
+    color: #fff;
   }
 
-  & .main-heading{
-    color: white;
-    font-size: 36px;
-    line-height: 60px;
-    margin-bottom: 18px;
-    text-align: center;
-  }
+
 `
 
 const StyledButton = styled(Button)`
@@ -66,6 +79,10 @@ const StyledButton = styled(Button)`
   line-height: 24px;
   background-color: #0ea800;
   text-align: 'center';
+
+  @media(max-width: 500px) {
+    font-size: 18px;
+  }
 `
 
 const StyledBackgroundImage = styled(BackgroundImage)`
@@ -106,23 +123,24 @@ const Home = () => {
             <Row className="heading-row" align="middle">
               <Col span={24}>
                 <h1 className="main-heading">
-                  Your Local Real estate Conveyncer Affordable Fixed Rates
+                  Your Local Real Estate Conveyancer
                 </h1>
+                <h3 className="heading-tagline">Affordable Fixed Rates</h3>
               </Col>
             </Row>
             <Row type="flex" justify="center">
               <Col
-                span={6}
+                sm={6}
                 className="col-container"
               >
                 <h2 className="tagline">
-                  Selling You Place?
+                  Selling Your Place?
                 </h2>
                 <StyledButton type="primary" href="https://reception676431.typeform.com/to/KN9jKQeB" size="large">
                   Need a contract for your scale
                 </StyledButton>
               </Col>
-              <Col span={6} className="col-container">
+              <Col sm={6} className="col-container">
                 <h2 className="tagline">
                   Buying a Place?
                 </h2>
@@ -134,9 +152,9 @@ const Home = () => {
             <Row className="pricing-row">
               <Col span={24}>
                 <p>
-                  <span>$450</span>
+                  $500
                   {' '}
-                  plus any Government or authority searches
+                  <span>*plus any Government or authority searches</span>
                 </p>
               </Col>
             </Row>
