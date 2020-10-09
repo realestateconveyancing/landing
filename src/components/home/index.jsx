@@ -42,9 +42,14 @@ const StyledHome = styled.div`
 
   & .pricing-row p{
     color: white;
+    font-size: 24px;
     text-align: center;
-    font-size: 18px;
     font-weight: bold;
+  }
+
+  & .pricing-row span{
+    font-weight: bold;
+    color: #0ea800;
   }
 
   & .main-heading{
@@ -129,7 +134,9 @@ const Home = () => {
             <Row className="pricing-row">
               <Col span={24}>
                 <p>
-                  Plus any Government or authority searches
+                  <span>$450</span>
+                  {' '}
+                  plus any Government or authority searches
                 </p>
               </Col>
             </Row>
